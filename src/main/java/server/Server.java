@@ -1,6 +1,5 @@
 package server;
 
-import za.co.wethinkcode.flow.Recorder;
 import server.configuration.CLIArgumentHandler;
 import server.configuration.Config;
 import server.configuration.ConfigLoader;
@@ -145,14 +144,4 @@ public class Server {
         server.startServer();
 
     }
-
-    // The following initialisation is REQUIRED for `flow` monitoring.
-    // DO NOT REMOVE OR MODIFY THIS CODE.
-    static {
-        new Recorder().logRun();
-    }
-
 }
-
-
-

@@ -51,16 +51,6 @@
             <artifactId>json</artifactId>
             <version>20250107</version>
         </dependency>
-<!--       <dependency>-->
-<!--            <groupId>net.lemnik</groupId>&ndash;&gt;-->
-<!--            <artifactId>eodsql</artifactId>&ndash;&gt;-->
-<!--            <version>2.2</version>&ndash;&gt;-->
-<!--        </dependency>-->
-        <dependency>
-            <groupId>za.co.wethinkcode</groupId>
-            <artifactId>flow</artifactId>
-            <version>${version.flow}</version>
-        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-nop</artifactId>
